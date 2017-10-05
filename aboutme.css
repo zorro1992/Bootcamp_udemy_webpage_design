@@ -1,0 +1,16 @@
+h1 {
+    color: #000000;
+    border-color: purple;
+    broder-width: 5px;
+    border-style: solid;
+  
+  }
+  h4{
+    background: grey;
+  }
+  li {
+      color: orange;
+  }
+  body{
+    background: url(https://hdwallsource.com/img/2014/6/simple-cloud-wallpaper-21887-22440-hd-wallpapers.jpg);
+  }
