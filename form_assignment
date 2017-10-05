@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Form assignment</title>
+    </head>
+    <body>
+      <h1>Register</h1>
+      <form action = "http://wikipedia.com">
+      <p>
+      <label for ="Firstname">Firstname:</label>
+      <input id="Firstname" type ="text" placeholder="Firstname" required>
+
+      <label for ="Lastname">Lastname:</label>
+      <input id="Lastname" type ="text" placeholder="Lastname" required>
+      </p>
+      <p>
+      <label for="Male">Male:</label>
+      <input name="Gender" id="Male" type="radio" value="Gender">
+
+      <label for="Female">Female:</label>
+      <input name="Gender" id="Females" type="radio" value="Gender">
+
+      <label for="Other">Other:</label>
+      <input name="Gender" id="Other" type="radio" value="Gender">
+      </p>
+
+      <label for ="Email">Email:</label>
+      <input id="Email" type ="email" placeholder="Email" required>
+
+      <label for = "password">password:</label>
+      <input type ="password" placeholder="password" required>
+
+      <h4>Birthday:</h4>
+      <select name="Month">
+        <option>month</option>
+        <option>Jan</option>
+        <option>Feb</option>
+        <option>Mar</option>
+      </select>
+
+      <select name="Day">
+        <option>Day</option>
+        <option>01</option>
+        <option>02</option>
+        <option>03</option>
+        <option>04</option>
+      </select>
+
+      <select name="Year">
+        <option>Year</option>
+        <option>1990</option>
+        <option>1991</option>
+        <option>1992</option>
+        <option>1993</option>
+      </select>
+
+      <p>I agree to the terms and conditions</p>
+      <input type="radio">
+      <button>submit</button>
+
+      </form>
+
+</body>
+
+</html>
