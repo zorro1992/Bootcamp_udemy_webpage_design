@@ -1,0 +1,16 @@
+li{
+  border: 2px solid red;
+}
+
+body{
+  background: orange;
+}
+
+#last{
+  color: black;
+  background: green;
+}
+
+.test{
+  text-decoration: line-through;
+}
