@@ -73,3 +73,15 @@ while ( reply !== "yes" && reply !== "yeah")
 }
 
 alert("We have reached finally");
+
+
+// See if the word yes is there in a sentance if so leave a message
+
+var reply = prompt("Are we there yet ?")
+
+
+while (reply.indexOf("yes")=== -1 && reply.indexOf("yeah"))
+{
+  var reply = prompt("Are we there yet ?");
+}
+alert("We have reached finally");
